@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes : light
+}
+.Form_id{
+  position: "justify-center"
+
+}
+.highlight .djs-visual > :nth-child(1) {
+  stroke: #ef4444 !important;
+  stroke-width: 4px !important;
+}
+.bpmn-warning {
+  width: 18px;
+  height: 18px;
+  background: #ef4444;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Exo 2", sans-serif;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    135deg,
+    #394e9d,
+    #3fb5cc,
+    #65b22e
+  );
+
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  
+}
+/** couper la transition du btn primary
+transition: all 0.25s ease;
+*/
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+}
+
+.error {
+  background: #fff1f2;
+  color: #b91c1c;
+  border-left: 4px solid #ef4444;
+}
+;
+

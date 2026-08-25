@@ -1,0 +1,73 @@
+category_to_layer = {
+    # --- Syntax errors (layer 1)
+    "ad-hoc-sub-process": 1,
+    "conditional-flows": 1,
+    "end-event-required": 1,
+    "event-based-gateway": 1,
+    "event-sub-process-typed-start-event": 1,
+    "fake-join": 1,
+    "superfluous-gateway": 1,
+    "label-required": 1,
+    "no-complex-gateway": 1,
+    "no-disconnected": 1,
+    "no-duplicate-sequence-flows": 1,
+    "no-gateway-join-fork": 1,
+    "no-implicit-start": 1,
+    "no-implicit-split": 1,
+    "no-implicit-end": 1,
+    "no-inclusive-gateway": 1,
+    "single-blank-start-event": 1,
+    "start-event-required": 1,
+    "sub-process-blank-start-event": 1,
+    "empty conditions for inclusive and exclusive gateways": 1,
+    "unique labels": 1,
+    "not connected data objects": 1,
+    "Use message flows": 1,
+    "Use message flows only on correct nodes":1,
+
+    # --- Soundness (layer 2)
+    "OptionToComplete": 2,
+    "No Dead Activities": 2,
+    "OptionToComplete": 2,
+    "Safeness": 2,
+    "Proper Completion": 2,
+    "Incorrect termination error": 2,
+    "Model as structured as possible": 2,
+    "Use one start and one end event": 2,
+
+    # --- Understandability (layer 3)
+    "Label deficit": 3,
+    "Use a labeling convention": 3,
+    "Reduce the number of redundant activities": 3,
+    "Complexity": 3,
+    "Minimize model size": 3,
+    "Apply hierarchical structure with sub-processes": 3,
+    "Use sub-processes": 3,
+    "Use pools consistently": 3,
+    "Use lanes consistently": 3,
+    "Use default flows": 3,
+    "Use as few elements in the model as possible": 3,
+    "Minimize the routing paths per element": 3,
+
+    # --- Collaboration (layer 4)
+    "Number Of Pools": 4,
+    "Quantity of Message Flows Between Two Pools": 4,
+    "Quantity of SubProcesses per Pool": 4,
+    "Quantity of Decisions per Pool": 4,
+    "Quantity Of Tasks Executed in a SpecificPool": 4,
+    "Proportion of Task Distribution Per Participant": 4,
+
+    # --- Semantic (model related) (layer 5)
+    "Unclear Relations": 5,
+    "Unclear References": 5,
+    "Underspecifications": 5,
+    "Inconsistent Specifications": 5,
+    "Modelling Fuzziness": 5,
+    "optional control flow": 5,
+
+    # --- Semantic (process related) (layer 6)
+    "Communication defects": 6,
+    "Incorrect Information": 6,
+    "Imprecise Information": 6,
+    "Unexpected Information": 6,
+}
